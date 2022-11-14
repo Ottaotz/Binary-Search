@@ -28,7 +28,6 @@ public class Binario {
         Object [] aux;
         if ((int)array[index] < number) {
             aux = new Object[array.length - index - 1];
-            System.out.println(aux.length);
             int auxIndex = 0;
             for (int i = index + 1; i < array.length; i++)
                 aux[auxIndex++] = array[i];
